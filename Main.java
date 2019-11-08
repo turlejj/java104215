@@ -7,7 +7,7 @@ public class Main {
 	
 	public static void main(String args[]) {
 				
-		String fileName = "C://Users/Przemo/eclipse-workspace/Quiz/JavaQuiz.txt";
+		String fileName = "C://VALID_PATH_HERE";
 		Quiz[] QuizSet = ReadQuizData(fileName);
 		int points = 0;
 		String answer;
