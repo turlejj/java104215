@@ -6,27 +6,27 @@ public class Mercedes extends Car {
 	public double prize;
 	public String engine;
 	
-	public void SetModel(String model) {
+	public void setModel(String model) {
 		this.model = model;
 	}
 	
-	public String GetModel() {
+	public String getModel() {
 		return model;
 	}
 	
-	public void SetPrize(double prize) {
+	public void setPrize(double prize) {
 		this.prize = prize;
 	}
 	
-	public double GetPrize() {
+	public double getPrize() {
 		return prize;
 	}
 	
-	public void SetEngine(String engine) {
+	public void setEngine(String engine) {
 		this.engine = engine;
 	}
 	
-	public String GetEngine() {
+	public String getEngine() {
 		return engine;
 	}
 }
