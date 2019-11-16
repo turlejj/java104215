@@ -10,51 +10,51 @@ public abstract class Car {
 	public int horsePower;
 	public String color;
 	
-	public void SetBrand(String brand) {
+	public void setBrand(String brand) {
 		this.brand = brand;
 	}
 	
-	public String GetBrand() {
+	public String getBrand() {
 		return brand;
 	}
 	
-	public void SetNumberOfWheels(int nrOfWheels) {
+	public void setNumberOfWheels(int nrOfWheels) {
 		this.numberOfWheels = nrOfWheels;
 	}
 	
-	public int GetNumberOfWheels() {
+	public int getNumberOfWheels() {
 		return numberOfWheels;
 	}
 	
-	public void SetProductionYear(Date productionYear) {
+	public void setProductionYear(Date productionYear) {
 		this.productionYear = productionYear;
 	}
 	
-	public Date GetProductionYear() {
+	public Date getProductionYear() {
 		return productionYear;
 	}
 	
-	public void SetCourse(double course) {
+	public void setCourse(double course) {
 		this.course = course;
 	}
 	
-	public double GetCourse() {
+	public double getCourse() {
 		return course;
 	}
 	
-	public void SetHorsePower(int hoursePwr) {
+	public void setHorsePower(int hoursePwr) {
 		this.horsePower = hoursePwr;
 	}
 	
-	public int GetHorsePower() {
+	public int getHorsePower() {
 		return horsePower;
 	}
 	
-	public void SetColor(String color) {
+	public void setColor(String color) {
 		this.color = color;
 	}
 	
-	public String GetColor() {
+	public String getColor() {
 		return color;
 	}
 	
