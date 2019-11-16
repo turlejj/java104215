@@ -1,0 +1,5 @@
+Jedną z podstawowych różnic pomiędzy interfejsem, a klasą abstrakcyjną (oraz klasami w ogóle) 
+jest możliwość dziedziczenia - klasa może implementować wiele interfejsów, ale rozszerzać jednego rodzica.
+
+Interfejs może zawierać jedynie deklaracje metod, a klasa abstrakcyjna może zawierać również metody zdefiniowane.
+Czyli posiadać ciało metody.
