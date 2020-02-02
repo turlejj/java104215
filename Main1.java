@@ -4,12 +4,11 @@ import java.util.List;
 
 public class Main1 {
   
-public <T,L> boolean contains(List<T> list, L item) {
-	for(int i = 0; i < list.size(); i++) {
-		if(list.get(i).equals(item)) {
-			return true;
-		}
-	}
+ public boolean contains(T[] collection , T value){
+        for(T item : collection){
+            if(item.equals(value)){
+                return true;
+            }
 	
 	return false;
 }
