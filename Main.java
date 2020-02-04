@@ -10,7 +10,7 @@ public class Main {
 		String input;
 		List<Integer> userInputs = new ArrayList<Integer>();
 		do {
-			input = JOptionPane.showInputDialog("Wprowadz liczbê:");	
+			input = JOptionPane.showInputDialog("Wprowadz liczbe:");	
 			
 			try {
 				int parsedInput = Integer.parseInt(input);
@@ -20,7 +20,7 @@ public class Main {
 				if(input.toLowerCase().equals("n")) {
 					break;
 				}
-				System.out.println("Nieprawid³owa wartoœæ. Wprowadzaj liczby lub literê n aby zakoñczyæ");
+				System.out.println("Nieprawidlowa wartosc. Wprowadzaj liczby lub litere n aby zakonczyc");
 			}
 			
 		}while(!input.toLowerCase().equals("n"));
